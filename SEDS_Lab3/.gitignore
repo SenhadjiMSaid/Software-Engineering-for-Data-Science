@@ -1,0 +1,5 @@
+__pycache__
+.dist
+rocket\offboe_rocket.egg-info
+rocket\rocket.egg-info
+MIT License.txt
