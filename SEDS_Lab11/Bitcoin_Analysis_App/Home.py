@@ -18,7 +18,7 @@ def update_data():
 if "start_date" not in st.session_state:
     st.session_state["start_date"] = pd.Timestamp("2024-01-01")
 if "end_date" not in st.session_state:
-    st.session_state["end_date"] = pd.Timestamp("2024-12-01")
+    st.session_state["end_date"] = pd.Timestamp("2025-01-01")
 
 st.sidebar.header("Settings")
 st.sidebar.date_input("Start Date", key="start_date", on_change=update_data)
